@@ -49,11 +49,11 @@ a{
 
     color: #0a0a0a;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 10px;
     font-size: 20px;
     text-decoration: none;
     margin: 20px;
-    margin-left: 120px;
+    margin-left: 30px;
     align-items: center;
     font-weight: bold;
 }
@@ -157,13 +157,13 @@ button{
     font-weight: bold;
 }
 .button2{
-    margin-left: 130px;
+    margin-left: 50px;
     color:#fff;
     border: none;
     border-radius: 10px;
     display: inline-block;
     text-decoration: none;
-    padding: 15px 60px;
+    padding: 15px 10px;
     margin-bottom: 20px;
     background-image: linear-gradient(to right top, #ac0b20, #aa050e, #a71111, #b31313, #990707, #b60999, #ff41aa, #fa46d3, #fb5ff3);
 
