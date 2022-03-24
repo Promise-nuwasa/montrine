@@ -11,7 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: #b8dae3;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -30,30 +30,32 @@ a{
 
 
 .box{
-    position: relative;
+    position: relative; 
     min-width: 250px;
     background-color: #fff;
-    box-shadow: 2px 3px 30px rgba(0,0,0,0.05);
+    box-shadow: 2px 3px 30px rgba(29, 18, 26, 0.05);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     margin: 20px;
     position: relative;
     border-radius: 10px;
+    border: 1px solid purple
 }
 
 .topnav a {
 
-    float:inherit;
     color: #0a0a0a;
     text-align: center;
     padding: 14px 16px;
-    font-size: 17px;
+    font-size: 20px;
     text-decoration: none;
     margin: 20px;
+    margin-left: 120px;
     align-items: center;
+    font-weight: bold;
 }
 .top-bar{
     width: 50%;
@@ -153,4 +155,17 @@ button{
     padding: 5px 30px;
     font-size: 15px;
     font-weight: bold;
+}
+.button2{
+    margin-left: 130px;
+    color:#fff;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 60px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right top, #ac0b20, #aa050e, #a71111, #b31313, #990707, #b60999, #ff41aa, #fa46d3, #fb5ff3);
+
+
 }
